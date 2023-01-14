@@ -48,7 +48,7 @@ class BannersCollectionView: UIView {
     }()
 
     // MARK: - Properties
-    private var viewModel: BannersCollectionViewModel? {
+    var viewModel: BannersCollectionViewModel? {
         didSet { setupData() }
     }
 
