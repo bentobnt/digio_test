@@ -1,14 +1,18 @@
 # Digio Test Developer - iOS
 
-### Pre-requisites:
-- Deployment Target iOS 12
-- [CocoaPods](https://cocoapods.org/)
+### Libs:
 - [Swiftlint](https://github.com/realm/SwiftLint)
-
-### Other used libs:
+```bash
+Required
+```
 - [SnapKit](https://github.com/SnapKit/SnapKit)
 ```bash
 Used to implement the View Code pattern
+```
+- [Snapshot Testing](https://github.com/pointfreeco/swift-snapshot-testing) 
+```bash
+Used to implement UI Tests
+
 ```
 
 ### Architecture:
@@ -27,7 +31,11 @@ Used to implement the View Code pattern
 
 ### Tests:
 - Unit tests for viewModel and Service using XCTestCase
-- Implementing UITests
+- UITests (:hammer: Implemented only for iphone 8 )
+
+### Pre-requisites:
+- Deployment Target iOS 12
+- [CocoaPods](https://cocoapods.org/)
 
 ## Installation
 
